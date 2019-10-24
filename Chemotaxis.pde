@@ -10,7 +10,7 @@ void setup()
 }   
 void mousePressed()
 {
- a= new Bacteria[1];
+ a= new Bacteria[100];
     for (int i=0; i<a.length; i++)
   {
     a[i]= new Bacteria(mouseX,mouseY);
